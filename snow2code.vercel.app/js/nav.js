@@ -14,10 +14,11 @@
 
 const menuItems = [
     { name: "Home", url: "/" },
+    { name: "The Furry Project", url: "/pages/the-furry-project.html" },
     { name: "About Snowy", url: "/pages/snowy" },
     // { name: "About Lolie", url: "file:///I:/new%20silly%20site/pages/about_lolie" }, // Fuck you Lynn/lolie. you crazy nigga trying to break my relationship and me.
     // { name: "About Glowy", url: "/pages/about_snowglow" },
-    { name: "Inquiries", url: "/pages/inquiries"}
+    { name: "Inquiries", url: "/pages/inquiries.html"}
 ];
 
 function generateNavItems(navId)

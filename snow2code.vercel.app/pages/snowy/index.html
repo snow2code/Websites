@@ -12,7 +12,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="language" content="English">
         <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,700,800" rel="stylesheet">
-		<link rel="stylesheet" href="/styles.css">
+		<link rel="stylesheet" href="https://snow2code.github.io/Websites/snow2code.vercel.app/styles.css">
 		
         <style>
 			body {
@@ -101,7 +101,8 @@
 				<h2>About Snowy</h2>
                 <h1 id="content-text" style="padding-bottom: 50px; display: block">nya~</h1>
 
-                <!-- Added by Javascript -->
+				<h2>Main</h2>
+
                 <div id="snow-buttons">
 					<button onclick="changeIFrame(this)" id="howto">How to use</button>
 					<button onclick="changeIFrame(this)" id="info">Snowy's Info (Personal)</button>
@@ -109,6 +110,12 @@
 					<button onclick="changeIFrame(this)" id="characters">Characters</button>
 					<button onclick="changeIFrame(this)" id="connections">Links / Socials</button>
 					<button onclick="changeIFrame(this)" id="contact">Contact</button>
+				</div>
+
+				<h2>Misc</h2>
+
+                <div id="snow-buttons-misc">
+					<button onclick="changePage(this)" id="the-furry-project">The Furry Project</button>
 				</div>
 
 				<br>
@@ -135,6 +142,14 @@
             const info = document.getElementById("_INFO_");
             const content = document.getElementById("content");
 
+			function changePage(button)
+			{
+				if (button != null)
+				{
+					window.location = `/pages/${button.id}.html`;
+				}
+			}
+
             function changeIFrame(button)
             {
 				if (button != null)
@@ -150,8 +165,8 @@
             changeIFrame(document.getElementById("howto"))
         </script>
 
-		<script src="/js/oneko.js"></script>
+		<script src="https://snow2code.github.io/Websites/snow2code.vercel.app/js/oneko.js"></script>
 		<!-- <script src="/js/nav-snowy.js"></script> -->
-		<script src="/js/nav.js"></script>	
+		<script src="https://snow2code.github.io/Websites/snow2code.vercel.app/js/nav.js"></script>	
 	</body>
 </html>
