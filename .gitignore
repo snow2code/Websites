@@ -1,8 +1,49 @@
-/dcdoomvr.infy.uk/*.html
+# dcdoomvr.infy.page + dcdoomvr.page.gd
+## /dcdoomvr.infy.uk/*.html
+## /dcdoomvr.infy.uk/.old/
+## /dcdoomvr.infy.uk/templates_c/
 
-/dcdoomvr.infy.uk/.old/
-/dcdoomvr.infy.uk/templates_c/
+
+## /snow2code.infy.uk__oldWP/
+## /snow2code.infy.uk__oldSBPP/
 
 
-/snow2code.infy.uk__oldWP/
-/snow2code.infy.uk__oldSBPP/
+
+
+# snow2code.infy.uk + snow2code.page.gd
+## Wordpress
+snow2code.infy.uk + snow2code.page.gd/wp-admin/*
+snow2code.infy.uk + snow2code.page.gd/wp-content/*
+snow2code.infy.uk + snow2code.page.gd/wp-includes/*
+snow2code.infy.uk + snow2code.page.gd/index.php
+snow2code.infy.uk + snow2code.page.gd/license.txt
+snow2code.infy.uk + snow2code.page.gd/readme.me
+snow2code.infy.uk + snow2code.page.gd/wp-activate.php
+snow2code.infy.uk + snow2code.page.gd/wp-blog-header.php
+snow2code.infy.uk + snow2code.page.gd/wp-comments-post.php
+snow2code.infy.uk + snow2code.page.gd/wp-config.php
+snow2code.infy.uk + snow2code.page.gd/wp-config-sample.php
+snow2code.infy.uk + snow2code.page.gd/wp-cron.php
+snow2code.infy.uk + snow2code.page.gd/wp-links-opml.php
+snow2code.infy.uk + snow2code.page.gd/wp-load.php
+snow2code.infy.uk + snow2code.page.gd/wp-login.php
+snow2code.infy.uk + snow2code.page.gd/wp-mail.php
+snow2code.infy.uk + snow2code.page.gd/wp-mail.php
+snow2code.infy.uk + snow2code.page.gd/wp-settings.php
+snow2code.infy.uk + snow2code.page.gd/wp-signup.php
+snow2code.infy.uk + snow2code.page.gd/wp-traceback.php
+snow2code.infy.uk + snow2code.page.gd/xmlrpc.php
+## Custom
+snow2code.infy.uk + snow2code.page.gd/login.php
+snow2code.infy.uk + snow2code.page.gd/signup.php
+
+# dcdoomvr.infy.uk + dcdoomvr.page.gd
+# dcdoomvr.infy.uk + dcdoomvr.page.gd/
+dcdoomvr.infy.uk + dcdoomvr.page.gd/.old/*
+dcdoomvr.infy.uk + dcdoomvr.page.gd/icon.webp
+dcdoomvr.infy.uk + dcdoomvr.page.gd/index2.html.old
+dcdoomvr.infy.uk + dcdoomvr.page.gd/oso.html
+dcdoomvr.infy.uk + dcdoomvr.page.gd/test.php
+
+# snow2code.vercel.app
+snow2code.vercel.app/node_modules/*

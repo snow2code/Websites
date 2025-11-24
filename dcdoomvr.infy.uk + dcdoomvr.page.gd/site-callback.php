@@ -2,8 +2,8 @@
 
 function getSystemMessage()
 {
-    $statusUrl = "https://raw.githubusercontent.com/Snow2Code/dcdoomvr.infy.uk/refs/heads/main/system-message/active";
-    $messageUrl = "https://raw.githubusercontent.com/Snow2Code/dcdoomvr.infy.uk/refs/heads/main/system-message/message";
+    $statusUrl = "https://raw.githubusercontent.com/snow2code/websites/dcdoomvr/refs/heads/main/system-message/active";
+    $messageUrl = "https://raw.githubusercontent.com/snow2code/websites/dcdoomvr/refs/heads/main/system-message/message";
     $systemmessage__Status = file_get_contents($statusUrl);
     $systemmessage__Message = file_get_contents($messageUrl);
     
